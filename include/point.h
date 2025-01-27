@@ -1,7 +1,14 @@
 #pragma once
 typedef struct point_t {
-	//TODO 1. Decide what needs to be saved in point_t struct
-	int none; //remove this line, jus to avoid compilation error
-} point_t;
 
-void freePoints(point_t** points);
+	double t;
+	double x;
+	double y;
+	double vx;
+	double vy;
+	double v;
+	double theta; 
+}point_t;
+
+// delcaration of the freepoints fucntion
+void freePoints (point_t** points);
