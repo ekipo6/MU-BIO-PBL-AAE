@@ -32,7 +32,7 @@ int main(int argc, char** argv)
 	float maximumAngularVelocity = computeMaximumAngularVelocity(points, numberOfPoints);
 
 	// Imprime la velocidad angular máxima en revoluciones por minuto (rpm)
-	printf("Maximum angular velocity: %f rpm\n", maximumAngularVelocity);
+	printf("Maximum angular velocity: %f rad/s\n", maximumAngularVelocity);
 
 	// Libera la memoria asignada para los puntos
 	freePoints(&points);
